@@ -1,0 +1,106 @@
+<?php
+
+namespace App\Consts;
+
+class ScheduleStatusConst
+{
+    const STATUS_0000 = 0;
+    const STATUS_0030 = 1;
+    const STATUS_0100 = 2;
+    const STATUS_0130 = 3;
+    const STATUS_0200 = 4;
+    const STATUS_0230 = 5;
+    const STATUS_0300 = 6;
+    const STATUS_0330 = 7;
+    const STATUS_0400 = 8;
+    const STATUS_0430 = 9;
+    const STATUS_0500 = 10;
+    const STATUS_0530 = 11;
+    const STATUS_0600 = 12;
+    const STATUS_0630 = 13;
+    const STATUS_0700 = 14;
+    const STATUS_0730 = 15;
+    const STATUS_0800 = 16;
+    const STATUS_0830 = 17;
+    const STATUS_0900 = 18;
+    const STATUS_0930 = 19;
+    const STATUS_1000 = 20;
+    const STATUS_1030 = 21;
+    const STATUS_1100 = 22;
+    const STATUS_1130 = 23;
+    const STATUS_1200 = 24;
+    const STATUS_1230 = 25;
+    const STATUS_1300 = 26;
+    const STATUS_1330 = 27;
+    const STATUS_1400 = 28;
+    const STATUS_1430 = 29;
+    const STATUS_1500 = 30;
+    const STATUS_1530 = 31;
+    const STATUS_1600 = 32;
+    const STATUS_1630 = 33;
+    const STATUS_1700 = 34;
+    const STATUS_1730 = 35;
+    const STATUS_1800 = 36;
+    const STATUS_1830 = 37;
+    const STATUS_1900 = 38;
+    const STATUS_1930 = 39;
+    const STATUS_2000 = 40;
+    const STATUS_2030 = 41;
+    const STATUS_2100 = 42;
+    const STATUS_2130 = 43;
+    const STATUS_2200 = 44;
+    const STATUS_2230 = 45;
+    const STATUS_2300 = 46;
+    const STATUS_2330 = 47;
+    // ステータス一覧
+    const STATUS_LIST = [
+        '00:00〜00:30' => self::STATUS_0000,
+        '00:30〜01:00' => self::STATUS_0030,
+        '01:00〜01:30' => self::STATUS_0100,
+        '01:30〜02:00' => self::STATUS_0130,
+        '02:00〜02:30' => self::STATUS_0200,
+        '02:30〜03:00' => self::STATUS_0230,
+        '03:00〜03:30' => self::STATUS_0300,
+        '03:30〜04:00' => self::STATUS_0330,
+        '04:00〜04:30' => self::STATUS_0400,
+        '04:30〜05:00' => self::STATUS_0430,
+        '05:00〜05:30' => self::STATUS_0500,
+        '05:30〜06:00' => self::STATUS_0530,
+        '06:00〜06:30' => self::STATUS_0600,
+        '06:30〜07:00' => self::STATUS_0630,
+        '07:00〜07:30' => self::STATUS_0700,
+        '07:30〜08:00' => self::STATUS_0730,
+        '08:00〜08:30' => self::STATUS_0800,
+        '08:30〜09:00' => self::STATUS_0830,
+        '09:00〜09:30' => self::STATUS_0900,
+        '09:30〜10:00' => self::STATUS_0930,
+        '10:00〜10:30' => self::STATUS_1000,
+        '10:30〜11:00' => self::STATUS_1030,
+        '11:00〜11:30' => self::STATUS_1100,
+        '11:30〜12:00' => self::STATUS_1130,
+        '12:00〜12:30' => self::STATUS_1200,
+        '12:30〜13:00' => self::STATUS_1230,
+        '13:00〜13:30' => self::STATUS_1300,
+        '13:30〜14:00' => self::STATUS_1330,
+        '14:00〜14:30' => self::STATUS_1400,
+        '14:30〜15:00' => self::STATUS_1430,
+        '15:00〜15:30' => self::STATUS_1500,
+        '15:30〜16:00' => self::STATUS_1530,
+        '16:00〜16:30' => self::STATUS_1600,
+        '16:30〜17:00' => self::STATUS_1630,
+        '17:00〜17:30' => self::STATUS_1700,
+        '17:30〜18:00' => self::STATUS_1730,
+        '18:00〜18:30' => self::STATUS_1800,
+        '18:30〜19:00' => self::STATUS_1830,
+        '19:00〜19:30' => self::STATUS_1900,
+        '19:30〜20:00' => self::STATUS_1930,
+        '20:00〜20:30' => self::STATUS_2000,
+        '20:30〜21:00' => self::STATUS_2030,
+        '21:00〜21:30' => self::STATUS_2100,
+        '21:30〜22:00' => self::STATUS_2130,
+        '22:00〜22:30' => self::STATUS_2200,
+        '22:30〜23:00' => self::STATUS_2230,
+        '23:00〜23:30' => self::STATUS_2300,
+        '23:30〜24:00' => self::STATUS_2330,
+    ];
+}
