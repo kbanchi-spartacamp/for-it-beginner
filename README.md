@@ -15,3 +15,9 @@
 ### 予約
 
 ![create](./doc/images/create.png)
+
+### 参考(レアジョブ)
+
+![rarejob01](./doc/images/rarejob_01.png)
+
+![rarejob02](./doc/images/rarejob_02.png)
